@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int distancekm = 50;
+    int distancekm = 60;
     int coutB = 20;
     int consommation = 7;
     int prixEss = 2;
