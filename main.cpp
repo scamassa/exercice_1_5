@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     int distancekm = 50;
     int coutB = 20;
@@ -12,13 +14,13 @@ int main() {
     int totalVoit = essence + amort;
 
     if(totalVoit < coutB) {
-        std::cout << "la voiture est mieux" << std::endl;
+        cout << "la voiture est mieux" << endl;
     }
     if(coutB < totalVoit) {
-        std::cout << "le train est mieux" << std::endl;
+        cout << "le train est mieux" << endl;
     }
     else {
-        std::cout << "les prix sont les memes" << std::endl;
+        cout << "les prix sont les memes" << endl;
     }
 
     return 0;
